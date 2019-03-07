@@ -1,0 +1,94 @@
+html{
+	background-image: url("../images/bats.gif");
+}
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:800px;
+	border-style: solid;
+	margin:auto;
+	background-color:white;
+	box-shadow: 10px 10px 10px;
+
+}
+a {
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited { 
+    color: orange; 
+}
+a:hover, a:focus { 
+    color: green;
+}
+
+/* Header */
+header{
+	border-bottom-style: solid;
+	background-image: linear-gradient(45deg, white,orange, orange,black);
+	padding-top:1px;
+	padding-left: 20px;
+	padding-right:20px;
+}
+header img { 
+	float: left; 
+} 
+header div{
+	text-align: left;
+}
+header h2 {
+	font-size: 170%;
+	text-indent: 20px;
+}
+header h3 {
+	font-size: 125%;
+	text-indent: 20px;
+}
+
+/* Main */
+main{
+	padding-left: 20px;
+	padding-right:20px;
+}
+main h1 { 
+	font-size: 140%;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+}
+main h3 {
+	font-size: 110%;
+}
+ul {
+	line-height: 1.5;
+}
+/* Columns*/
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer{
+	border-top-style: solid;
+	background-image: linear-gradient(45deg, black, orange,orange,white)
+}
+footer p {
+	font-size: 90%;
+	text-align: center;
+	padding-bottom: 1px;
+}
